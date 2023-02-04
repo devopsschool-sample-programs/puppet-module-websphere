@@ -115,3 +115,25 @@ necessary or important to include here. Please use the `##` header.
 [1]: https://puppet.com/docs/pdk/latest/pdk_generating_modules.html
 [2]: https://puppet.com/docs/puppet/latest/puppet_strings.html
 [3]: https://puppet.com/docs/puppet/latest/puppet_strings_style.html
+
+## site.pp
+
+```
+node default {
+
+class { 'ibm_installation_manager':
+  deploy_source => true,
+  source        => 'https://ak-delivery04-mul.dhe.ibm.com/sdfdl/v2/sar/CM/RA/0auf6/0/Xa.2/Xb.jusyLTSp44S03UdKEkwd2g9pjrrz6jCD3WB1tPgTaX6Zr9S1Jx0v0bI7zic/Xc.CM/RA/0auf6/0/agent.installer.linux.gtk.x86_64_1.9.2003.20220917_1018.zip/Xd./Xf.LPR.D1VC/Xg.12149157/Xi.habanero/XY.habanero/XZ.6fjor_Q0cQmQculUKx-MQy1yvaKXYBGB/agent.installer.linux.gtk.x86_64_1.9.2003.20220917_1018.zip',
+}
+
+include websphere_app_server
+
+}
+
+node 'agent1' {
+
+
+
+}
+
+```
