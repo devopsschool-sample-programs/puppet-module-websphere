@@ -1,29 +1,6 @@
-# websphere
+# Intro of websphere_app_server Puppet Module
 
-Welcome to your new module. A short overview of the generated parts can be found
-in the [PDK documentation][1].
-
-The README template below provides a starting point with details about what
-information to include in your README.
-
-## Table of Contents
-
-1. [Description](#description)
-1. [Setup - The basics of getting started with websphere](#setup)
-    * [What websphere affects](#what-websphere-affects)
-    * [Setup requirements](#setup-requirements)
-    * [Beginning with websphere](#beginning-with-websphere)
-1. [Usage - Configuration options and additional functionality](#usage)
-1. [Limitations - OS compatibility, etc.](#limitations)
-1. [Development - Guide for contributing to the module](#development)
-
-## Description
-
-Briefly tell users why they might want to use your module. Explain what your
-module does and what kind of problems users can solve with it.
-
-This should be a fairly short description helps the user decide if your module
-is what they want.
+This module would install ibm_installation_manager and Websphere server
 
 ## Setup
 
